@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-cardreader",
+  "version": "1.0.0",
+  "description": "Uses the USB RFID readers and sends them to a webocket. *REQUIRES EXTERNAL SOCKET SERVER*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-hid": "^0.5.7",
+    "ws": "^3.1.0"
+  }
+}
